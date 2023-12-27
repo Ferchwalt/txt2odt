@@ -10,17 +10,17 @@ The first argument should be the text file. If only used with the first argument
 The second argument should be the desired name of the Open Document file that is to be created. The ".odt" extension will automatically be appended and should therefor not be typed out.
 
 Examples (command line):
-| txt2pdf
-| ls
-| untitled.odt
+# txt2odt
+# ls
+# untitled.odt
 
-| txt2pdf example
-| ls
-| example example.odt
+# txt2odt example
+# ls
+# example example.odt
 
-| txt2pdf lol.txt haha
-| ls
-| lol.txt haha.odt
+# txt2odt lol.txt haha
+# ls
+# lol.txt haha.odt
 
 Roadmap:
 In the moment txt2pdf will simply create a mostly empty .odt file without many specifications. Also all the text of the input file will be put into a single paragraph in the Open Document file.
