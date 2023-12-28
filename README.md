@@ -36,7 +36,11 @@ shell version I tested on: system/bash 5.2.021-1 (Artix repositories)
 ---
 # Roadmap and possibly errors:
 Simply converting a text file into an Open Document File is quite nice especially only using such a small script. However, with added functionality in the form of flags this script could be doing a lot more without getting too bloated.
+
 The only real source for errors I could imagine with this script is that the two files and the one directory that are created and then deleted afterwards are placed in the current working directory and not in any temporary folder. So if you happen to have a file named content.xml in the directory you wish to create the Open Document File in then it will be overwritten and afterwards deleted. If you happen to have a directory called META-INF in this directory then it will also be deleted.
+
 Some improvements I am looking to implement:
+
 -Adding Flags that will let you specify a tile, fonts, sizes, extras (bold, italic, etc.), etc.
+
 -Feel free to suggest other improvements or bugs
