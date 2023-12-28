@@ -16,18 +16,18 @@ The first argument should be the input text file. If only used with the first ar
 The second argument should be the desired name of the Open Document file that is to be created. The ".odt" extension will automatically be appended and should therefor not be typed out.
 
 # Examples (command line):
-+ txt2odt
-+ ls
-=> untitled.odt
+[shell_input] txt2odt
+[shell_input] ls
+[shell_output] untitled.odt
 ---
-+ txt2odt example
-+ ls
-=> example example.odt
+[shell_input] txt2odt example
+[shell_input] ls
+[shell_output] example example.odt
 ---
-+ txt2odt lol.txt haha
-+ ls
-=> lol.txt haha.odt
-
+[shell_input] txt2odt lol.txt haha
+[shell_input] ls
+[shell_output] lol.txt haha.odt
+---
 # Roadmap and possibly errors:
 Simply converting a text file into an Open Document File is quite nice especially only using such a small script. However, with added functionality in the form of flags this script could be doing a lot more without getting too bloated.
 The only real source for errors I could imagine with this script is that the two files and the one directory that are created and then deleted afterwards are placed in the current working directory and not in any temporary folder. So if you happen to have a file named content.xml in the directory you wish to create the Open Document File in then it will be overwritten and afterwards deleted. If you happen to have a directory called META-INF in this directory then it will also be deleted.
