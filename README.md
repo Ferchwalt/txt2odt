@@ -3,7 +3,7 @@ A short shell Script that will convert any text file into a basic .odt (Open Doc
 Great if you hate bloated programms like libreOffice, MS Words, OpenOffice or such and you want to write documents using your command line or even console but you have to hand in a Word-like document!
 
 # Dependencies:
-Newest zip, awk and a shell I tested on (Feel free to test it on other versions. However, the functionalities I used are so basic that this script should run on basically any version).
+You need zip, awk and a shell. Newest zip, awk and shell version I tested on (Feel free to test it on other versions. However, the functionalities I used are so basic that this script should run on basically any version).
 
 zip version I tested on: extra/zip 3.0-11 (Arch repositories)
 
