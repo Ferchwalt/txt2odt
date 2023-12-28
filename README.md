@@ -43,4 +43,6 @@ Some improvements I am looking to implement:
 
 -Adding Flags that will let you specify a tile, fonts, sizes, extras (bold, italic, etc.), etc.
 
+-Placing the temporarily created files and the direcotiry in a sensible location.
+
 -Feel free to suggest other improvements or bugs
