@@ -16,17 +16,17 @@ The first argument should be the input text file. If only used with the first ar
 The second argument should be the desired name of the Open Document file that is to be created. The ".odt" extension will automatically be appended and should therefor not be typed out.
 
 # Examples (command line):
-[shell_input] txt2odt
-[shell_input] ls
-[shell_output] untitled.odt
+shell_input] txt2odt
+shell_input] ls
+shell_output] untitled.odt
 ---
-[shell_input] txt2odt example
-[shell_input] ls
-[shell_output] example example.odt
+shell_input] txt2odt example
+shell_input] ls
+shell_output] example example.odt
 ---
-[shell_input] txt2odt lol.txt haha
-[shell_input] ls
-[shell_output] lol.txt haha.odt
+shell_input] txt2odt lol.txt haha
+shell_input] ls
+shell_output] lol.txt haha.odt
 ---
 # Roadmap and possibly errors:
 Simply converting a text file into an Open Document File is quite nice especially only using such a small script. However, with added functionality in the form of flags this script could be doing a lot more without getting too bloated.
